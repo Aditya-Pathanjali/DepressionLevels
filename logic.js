@@ -168,4 +168,5 @@ else {
 function resetform()
 {
 	$("#result").html("");
+        $("#result2").html("");
 }
