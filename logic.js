@@ -144,7 +144,7 @@ function SubmitScore()
 	
 	if(score == 0)
 	{
-	 strMessage = "<div class=\"alert alert-danger\" role='alert'><b>Error!</h><br>Please answer all questions.</div>";
+	 strMessage = "<div class=\"alert alert-danger\" role='alert'><b>Error!</h><br>Please answer all questions.<br></div>";
 	}else{
 		strMessage = "<div class=\"alert alert-success\" role='alert'><b>Thank you!</h><br>Your Score is "+  score  +".</div>";
 	}
