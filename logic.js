@@ -149,7 +149,9 @@ function SubmitScore()
 		strMessage = "<div class=\"alert alert-success\" role='alert'><b>Thank you!</h><br>Your Score is "+  score  +".</div>";
          
 
-  if(score>=0 && score<=20) {strMessage2 = "<div class=\"alert alert-success\" role='alert'><b>You're Perfectly Alright</h></div> "}
+  
+	}
+	if(score>=0 && score<=20) {strMessage2 = "<div class=\"alert alert-success\" role='alert'><b>You're Perfectly Alright</h></div> "}
  else if(result>=20 && result<=25) {strMessage2 = "<div class=\"alert alert-success\" role='alert'><b>You're Good. You do not have any kind of Depression</h></div> "}
  else if(score>=25 && score<=30) {strMessage2 = "<div class=\"alert alert-success\" role='alert'><b>You have Mild Depression. This can be Cured by socializing or sharing your thoughts with Others</h></div> "}
  else if(score>=30 && score<=35) {strMessage2 = "<div class=\"alert alert-success\" role='alert'><b>You Have Moderate Depression. No need to Worry!!! Spend more time engaging in activities such as interacting with others.</h></div> "}
@@ -159,8 +161,6 @@ else {
   strMessage2 = "<div class=\"alert alert-danger\" role='alert'><b>You need to consult a Doctor</div>";
 } 
 
-	}
-	
 	
 	
 	
